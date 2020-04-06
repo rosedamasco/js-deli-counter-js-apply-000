@@ -13,6 +13,8 @@ function takeANumber(){
   //no paramaters
 }
 console.log(takeANumber());
+console.log(takeANumber());
+console.log(takeANumber());
 
 function nowServing(katzDeliLine){
   //when line is empty make an announcement
