@@ -1,8 +1,14 @@
+//store how many people are in line
+let currentNumber = 0;
+
 function takeANumber(currentLine, name){
   //append person to end of the line
   currentLine.push(name);
   //return a welcome message including the new person's position in line
   return `Welcome, ${name}. You are number ${currentLine.length} in line.`;
+  //starts at 0 , first customer = 1
+  //no use of an Array
+  //no paramaters
 }
 
 function nowServing(katzDeliLine){
