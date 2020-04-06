@@ -1,10 +1,8 @@
 function takeANumber(currentLine, name){
   //append person to end of the line
   currentLine.push(name);
-  //return a welcom message including the new person's position in line
+  //return a welcome message including the new person's position in line
   return `Welcome, ${name}. You are number ${currentLine.length} in line.`;
-  // currentLine.push(name);
-  // return `Welcome, ${name}. You are number ${currentLine.length} in line.`
 }
 
 function nowServing(katzDeliLine){
